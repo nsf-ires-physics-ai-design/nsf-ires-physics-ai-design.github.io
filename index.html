@@ -1,0 +1,455 @@
+<!-- 
+    NSF IRES Website
+    
+    Prof. Bo Zhu, Prof. Takeo Igarashi, Annie Tang
+    September 2022 - present 
+-->
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="author" content="Annie Tang">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/thicker_favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/success.css">
+
+        <title> NSF IRES</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">IRES</a>
+
+                <!-- top nav bar -->
+                <div class="topnav">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="topnav-links topnav-active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="topnav-links">About</a>
+                        </li>
+                        <li>
+                            <a href="#research" class="topnav-links">Research</a>
+                        </li>
+                        <li>
+                            <a href="#timeline" class="topnav-links">Timeline</a>
+                        </li>
+                        <li>
+                            <a href="#apply" class="topnav-links">Apply</a>
+                        </li>
+                        <li>
+                            <a href="#apply" class="topnav-links">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- bottom nav menu that shows up when displayed on phone -->
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#research" class="nav__link">
+                                <i class='bx bxs-graduation'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#timeline" class="nav__link">
+                                <i class='bx bx-time-five'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#apply" class="nav__link">
+                                <i class='bx bx-message-rounded-detail'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Theme change button -->
+                <div class="theme-tooltip">
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+                    <span class="theme-tooltip-text">Light/Dark</span>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="bg"> 
+                    <div class="home__container container grid"> 
+                        <div class="home__data">
+                            <br>
+                            <span class="home__greeting"></span>
+                            <h1 class="home__name">Physical AI Design</h1>
+                            <h3 class="home__education">NSF International Research Experiences for Students (IRES)</h3>
+                            <div class="home__buttons">
+                                <a href="#apply" class="button button--ghost">Apply</a>
+                                <a href="#about" class="button">Project Overview</a>
+                            </div>
+                        </div>
+                        <img src="assets/img/placeholder1.jpg" alt="" class="home__img">
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+
+                <!--=============== PROJECT OVERVIEW ===============-->
+                <span class="section__subtitle">What do we do?</span>
+                <h2 class="section__title">Project Overview</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/placeholder2.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+
+                        <p class="about__description">
+                            This NSF International Research Experiences for Students (IRES) project will send U.S. students to carry out summer research internships on devising software algorithms and user interfaces for interactive physical AI design at the University of Tokyo and Japan Advanced Institute of Science and Technology (JAIST). 
+                            <br><br>
+                            The research projects will focus on developing interactive design user interfaces, fast physics simulation algorithms, and integrated open-source codebase to enable accessible design platforms to support embodied AI designs based on different kinds of physical principles. 
+                            <br><br>
+                            Examples of the focused physical systems include soft bodies, articulated objects, shells/cloths, and different types of fluid. We aim to design AI-based paradigms to facilitate novel interaction and control interfaces between the human users and physical objects. We will also develop an open-source platform to unify the support of interactive physical AI designs based on different physical objects.
+                        </p>
+
+                        <a href="#contact" class="button">Apply Now</a>
+                    </div>
+                </div>
+
+                <!--=============== ADVISOR TEAM ===============-->
+                <br><br>
+                <h2 class="section__title">Advisor Team</h2>
+                <div class="research__overview">
+                    This research program is led jointly by <a href="https://cs.dartmouth.edu/~bozhu/index.html" class="hyperlinks">Prof. Bo Zhu</a> at Dartmouth College, Prof. Takeo Igarashi at the University of Tokyo, and <a href="http://www.jaist.ac.jp/~xie/" class="hyperlinks">Prof. Haoran Xie</a> at Japan Advanced Institute of Science and Technology (JAIST). The three advisors have broad research expertise in computer graphics, human-computer interaction, physics-based simulation, user-design interface, and data-driven modeling.
+                </div>
+
+            </section>
+
+            <!--=============== RESEARCH ===============-->
+            <section class="research section" id="research">
+
+                <!--=============== FOCUSED RESEARCH AREAS ===============-->
+                <span class="section__subtitle">What ideas will I work on?</span>
+                <h2 class="section__title">Focused Research Areas</h2>
+
+                <div class="research__overview">
+                    The focused research areas of this IRES project include <em>computer graphics, human-computer interaction, and machine learning</em>. We also encourage applicants with relevant research experiences from other neighboring areas (e.g., scientific computing, robotics, VR/AR, etc.).
+                </div>
+
+                <!--=============== RELEVANT RESEARCH PAPERS ===============-->
+                <h2 class="section__title">Relevant Research Papers</h2>
+                
+                <div class="research__overview">
+                    We provide a few samples of research papers that we believe are relevant to this project. You are encouraged to come up with your own ideas centered around physics AI design and specify them in your research statement/proposal.
+                </div>
+
+                <div class="research__container container swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Paper 1 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">Soft Multicopter Control using Neural Dynamics Identification</h3>
+                            <p class="research__description">
+                                <em>CoRL 2020</em>
+                                <br><br>
+                                Yitong Deng, Yaorui Zhang, Xingzhe He, Shuqi Yang, Yunjin Tong, Michael Zhang, Daniel M. DiPietro, Bo Zhu
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <!-- Paper 2 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">Sketch-based Dynamic Illustration of Fluid Systems. ACM Transactions on Graphics</h3>
+                            <p class="research__description">
+                                <em>SIGGRAPH Asia 2011</em>
+                                <br><br>
+                                Bo Zhu, Michiaki Iwata, Ryo Haraguchi, Takashi Ashihara, Nobuyuki Umetani, Takeo Igarashi, Kazuo Nakazawa
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <!-- Paper 3 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">Computational Multicopter Design</h3>
+                            <p class="research__description">
+                                <em>ACM Transactions on Graphics (SIGGRAPH Asia 2016), 35(6):227</em>
+                                <br><br>
+                                BTao Du, Adriana Schulz, Bo Zhu, Bernd Bickel, Wojciech Matusik
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <!-- Paper 4 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">Tsugite: Interactive Design and Fabrication of Wood Joint</h3>
+                            <p class="research__description">
+                                <em>UIST 2020</em>
+                                <br><br>
+                                Maria Larsson, Hironori Yoshida, Nobuyuki Umetani, and Takeo Igarashi
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <!-- Paper 5 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">Sketch2VF: Sketch-Based Flow Design with Conditional Generative Adversarial Network</h3>
+                            <p class="research__description">
+                                <em>Computer Animation and Virtual Worlds (CAVW), 2019</em>
+                                <br><br>
+                                Zhongyuan Hu, Haoran Xie, Tsukasa Fukusato, Takahiro Sato and Takeo Igarashi
+                                <br>
+                            </p>
+                        </div>
+
+                        <!-- Paper 6 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">Precomputed Panel Solver for Aerodynamics Simulation</h3>
+                            <p class="research__description">
+                                <em>ACM Transactions on Graphics (SIGGRAPH 2018)</em>
+                                <br><br>
+                                Haoran Xie, Takeo Igarashi, and Kazunori Miyata
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <!-- Paper 7 -->
+                        <div class="research__card swiper-slide">
+                            <i class='bx bx-bot contact__card-icon'></i>
+
+                            <h3 class="research__name">BPActuators: Lightweight and Low-Cost Soft Actuators by Balloons and Plastics</h3>
+                            <p class="research__description">
+                                <em>IEEE Soft Robotics (RoboSoft), communications, 2021.</em>
+                                <br><br>
+                                Qiukai Qi, Shogo Yoshida, Genki Kakihana, Takuma Torii, Van Anh Ho, and Haoran Xie
+                                <br><br>
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--=============== TIMELINE ===============-->
+            <section class="timeline section" id="timeline">
+                <div class="timeline__container container">
+                    <span class="timeline__subtitle">Dates and Deadlines</span>
+                    <h2 class="timeline__title">Important Timeline</h2>
+
+                    <div class="timeline">
+                        <div class="line"></div>
+
+                        <!-- Application Deadline -->
+                        <div class="timeline__section">
+                            <div class="bead"></div>
+                            <div class="timeline__content">
+                                <h2 class="timeline__section__title">Application Deadline</h2>
+                                <h3>
+                                    <em>February 28, 2023</em>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Notification Deadline -->
+                        <div class="timeline__section">
+                            <div class="bead"></div>
+                            <div class="timeline__content">
+                                <h2 class="timeline__section__title">Notification Deadline</h2>
+                                <h3>
+                                    <em>March 31, 2023</em>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Internship Period -->
+                        <div class="timeline__section">
+                            <div class="bead"></div>
+                            <div class="timeline__content">
+                                <h2 class="timeline__section__title">Internship Period</h2>
+                                <h3>
+                                    <em>June - August, 2023</em>
+                                    <br>
+                                    Three months, with flexible starting and ending dates
+                                </h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== APPLY ===============-->
+            <section class="contact section" id="apply">
+                <span class="section__subtitle">Interested?</span>
+                <h2 class="section__title">Apply Now</h2>
+
+                <!-- add button to go to apply form -->
+
+                <h3 class="section__title">Internship Description</h3>
+                <div class="apply__descriptions">
+                    Once you are selected by the IRES program committee, you will be expected to carry out a three-month summer internship at the University of Tokyo and JAIST. During the internship, you will lead a research project under the supervision of the three program advisors and in collaboration with the researchers in their teams. A detailed description of the internship position is specified as below.
+                    
+                    <!-- put into list  -->
+                    <br>
+                    <ul>
+                        <li><b>Position:</b> full-time summer internship for three months</li>
+                        <li><b>Location:</b> The University of Tokyo / Japan Advanced Institute of Science and Technology</li>
+                        <li><b>Salary:</b> A competitive salary will be offered based on the regulation of the NSF IRES Program.</li>
+                        <li><b>Responsibilities:</b> Each IRES student will lead one research project co-advised by the three advisors. The student is expected to develop the mathematical model, build the code framework, conduct tests and evaluations with other teammates, and finish the technical paper/report writing.</li>
+                        <li><b>Training:</b> During the internship, each IRES student will receive training in their coding, math, or engineering skills during their pre-departure training (remotely, one month before the internship) and their onsite internship (three months in Japan). </li>
+                    </ul>
+                </div>
+
+                <h3 class="section__title">Application Qualifications</h3>
+                <div class="apply__descriptions">
+                    We expect the applicant to demonstrate the following abilities in their applications:
+
+                    <br>
+                    <ul>
+                        <li>Demonstrated capabilities in conducting cutting-edge research at the intersection of computer graphics, computational design, physics-based simulation, and machine learning</li>
+                        <li>Solid programming skills in graphics/scientific computing/HCI/ML</li>
+                        <li>Experience in building open-source codebase and/or interactive user interfaces</li>
+                        <li>The program prefers the applicant to be enrolled in a MS or Ph.D. program in computer science, mathematics, or other related areas. We also encourage strong undergraduate applicants with competitive research and/or development skills to apply.</li>
+                        <li>As per the NSF IRES program's requirements, the applicant must be a U.S. citizen or permanent resident</li>
+                    </ul>
+                </div>
+
+                <h3 class="section__title">How to Apply</h3>
+                <div class="apply__descriptions">
+                    To apply for a IRES internship position in 2023 summer, please submit the following documents through the website link:
+
+                    <br>
+                    <ul>
+                        <li>CV (up to 2 pages, with your previous research/work experience and publication list (if any))</li>
+                        <li>Research statement/proposal (up to 2 pages, describing your previous research experience in relevant areas and/or the project you plan to work on in your IRES summer internship)</li>
+                    </ul>
+                </div>
+
+                <h3 class="section__title">Application Review Process</h3>
+                <div class="apply__descriptions">
+                    We will review applications and make decisions on a rolling basis. The deadline for all applications will be <b>February 28, 2023.</b>
+                </div>
+
+                <!-- contact form  -->
+                <div class="contact__content">
+                    <h3 class="contact__title">Apply Now!</h3>
+
+                    <form action="https://formsubmit.co/410888182254a09c95cc9cbf2102ce8d" method="POST" class="contact__form">
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- Disable Captcha -->
+                        <!-- <input type="hidden" name="_captcha" value="false"> -->
+
+                        <input type="hidden" name="_next" value="https://annieetang.github.io/success.html">
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name*</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input" name="name" id="name" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email*</label>
+                            <input type="email" placeholder="Insert your email" class="contact__form-input" name="email" id = "email" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="comments,&nbsp;questions" id="" cols="30" rows="10" placeholder="Write your message here" class="contact__form-par"></textarea>
+                        </div>
+
+                        <br>
+                        <br>
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h2 class="footer__title">NSF International Research Experiences for Students</h2>
+
+
+                <div class="footer__content">
+                    For more information, please contact <a href="mailto:bo.zhu@dartmouth.edu" class="contact__email">bo.zhu@dartmouth.edu</a>
+                </div>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                
+
+                <span class="footer__copy">
+                    Designed & Developed by Annie Tang <br>
+                    &#169; Annie Tang 2022
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!--=============== TIMELINE JS ===============-->
+        <script src="/assets/js/timeline.js"></script>
+    </body>
+</html>

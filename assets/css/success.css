@@ -1,0 +1,23 @@
+/*=============== FORM SUCCESS PAGE ===============*/
+.success__container{
+    row-gap: 2rem; 
+    padding-top: 1rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    align-items: center;
+  }
+  
+  .success__content{
+    padding: 1.5rem; 
+    border-radius: 1.25rem; 
+    margin-bottom: 2rem; 
+    text-align: center;
+  }
+  
+  .success__button{
+    margin-top: 5rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
