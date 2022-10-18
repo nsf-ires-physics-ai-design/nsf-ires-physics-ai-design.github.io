@@ -31,7 +31,11 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">IRES</a>
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/dartmouth_logo.png" class="logo__img" alt="">
+                    <img src="assets/img/jaist_logo.png" class="jaist__logo__img" alt="">
+                    <img src="assets/img/univOfTokyo_logo.png" class="logo__img" alt="">
+                </a>
 
                 <!-- top nav bar -->
                 <div class="topnav">
@@ -119,18 +123,18 @@
 
                         <div class="slideshow__container">
                             <div class="slides fade">
+                                <img src="assets/img/placeholder3.jpg" style="width:100%">
                                 <div class="gallery__num">1 / 3</div>
-                                <img src="assets/img/placeholder1.jpg" alt="" class="home__img" style="width:100%">
                             </div>
 
                             <div class="slides fade">
+                                <img src="assets/img/placeholder1.jpg" style="width:100%">
                                 <div class="gallery__num">2 / 3</div>
-                                <img src="assets/img/placeholder2.jpg" alt="" class="home__img" style="width:100%">
                             </div>
 
                             <div class="slides fade">
+                                <img src="assets/img/placeholder2.jpg" style="width:100%">
                                 <div class="gallery__num">3 / 3</div>
-                                <img src="assets/img/placeholder1.jpg" alt="" class="home__img" style="width:100%">
                             </div>
 
 
@@ -138,7 +142,6 @@
                             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                             <a class="next" onclick="plusSlides(1)">&#10095;</a>
                         </div>
-                        <br>
 
                         <!-- The dots/circles -->
                         <div style="text-align:center">
@@ -178,6 +181,15 @@
                 <!--=============== ADVISOR TEAM ===============-->
                 <br><br>
                 <h2 class="section__title">Advisor Team</h2>
+
+                <div class="team__pics">
+                    <img src="assets/img/bozhu.jpeg" alt="" class="team__img">
+                    <img src="assets/img/takeo.jpeg" alt="" class="team__img">
+                    <img src="assets/img/xiehaoran.jpeg" alt="" class="team__img">
+                </div>
+
+                <br><br>
+
                 <div class="research__overview">
                     This research program is led jointly by <a href="https://cs.dartmouth.edu/~bozhu/index.html" class="hyperlinks">Prof. Bo Zhu</a> at Dartmouth College, <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" class="hyperlinks">Prof. Takeo Igarashi</a> at the University of Tokyo, and <a href="http://www.jaist.ac.jp/~xie/" class="hyperlinks">Prof. Haoran Xie</a> at Japan Advanced Institute of Science and Technology (JAIST). The three advisors have broad research expertise in computer graphics, human-computer interaction, physics-based simulation, user-design interface, and data-driven modeling.
                 </div>
@@ -207,8 +219,8 @@
 
                         <!-- Paper 1 -->
                         <div class="research__card swiper-slide">
-                            <!-- <i class='bx bx-bot contact__card-icon'></i> -->
-                            <img src="assets/img/placeholder1.jpg" alt="" class="testimonial__img">
+                            <i class='bx bx-bot contact__card-icon'></i>
+                            <!-- <img src="assets/img/placeholder1.jpg" alt="" class="testimonial__img"> -->
 
                             <h3 class="research__name">Soft Multicopter Control using Neural Dynamics Identification</h3>
                             <p class="research__description">
@@ -468,8 +480,7 @@
                     <li>
                         <a href="#contact" class="footer__link">Contact</a>
                     </li>
-                </ul>
-                
+                </ul>             
 
                 <span class="footer__copy">
                     Designed & Developed by Annie Tang <br>
