@@ -301,7 +301,7 @@ body.light-theme{
 .nav{
   height: var(--header-height);
   display: flex; 
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -345,6 +345,8 @@ body.light-theme{
   border-radius: 4rem;
   transition: .4s; /* for light mode animation */
   padding: 1rem;
+  margin-left: 7.5rem;
+  margin-right: 20rem;
 }
 
 .topnav-links{
