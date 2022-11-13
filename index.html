@@ -115,11 +115,27 @@
                             <h1 class="home__name">Physical AI Design</h1>
                             <h3 class="home__education">NSF International Research Experiences for Students (IRES)</h3>
                             <div class="home__buttons">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4Nm5Jf63FegbOgY5kgkLapCbOf2XAbrpI0PmIgVj1PRBtdQ/viewform?usp=sf_link" class="button button--ghost">Apply</a>
+                                <a href="#apply" class="button">Apply</a>
                                 <a href="#about" class="button">Project Overview</a>
                             </div>
                         </div>
-                        
+                    
+			<div class="slideshow__container">
+                            <div class="slides fade">
+                                <img src="assets/img/ires_poster.jpg" style="width:100%">
+                                <!-- <div class="gallery__num">1 / 3</div> -->
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                        </div>
+			    
                     </div>
                 </div>
             </section>
@@ -131,23 +147,15 @@
                 <span class="section__subtitle">What do we do?</span>
                 <h2 class="section__title">Project Overview</h2>
 
-                <div class="about__container container grid">
-                    <img src="assets/img/ires_poster.jpg" alt="" class="about__img">
-
-                    <div class="about__data">
-
-                        <p class="about__description">
-				
+		<div class="research__overview">
+                        <p class="about__description">	
 			    The <em>Physical AI Design</em> NSF International Research Experiences for Students (IRES) project is funded by NSF Office of International Science and Engineering and led by Prof. <a href="https://cs.dartmouth.edu/~bozhu/index.html" class="hyperlinks">Bo Zhu</a> at Dartmouth College. This project will send U.S. students to conduct summer research internships on devising <em>physics simulation algorithms</em>, <em>user interfaces</em>, and <em>AI algortihms</em> at the University of Tokyo and Japan Advanced Institute of Science and Technology (JAIST), in collaboration with Prof. <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" class="hyperlinks">Takeo Igarashi</a> and Prof. <a href="http://www.jaist.ac.jp/~xie/" class="hyperlinks">Haoran Xie</a>. 
                             <br><br>
                             The IRES students' research projects will focus on developing <em>fast simulation and ML algorithms</em>, <em>interactive design user interfaces</em>, <em>computer graphics applications</em>, and <em>integrated open-source codebase</em> to create novel embodied AI algorithms for complex physical systems. 
                             <br><br>
                             We are particularly interested in devising novel AI algorithms and user interfaces to facilitate simulation, design, and optimization of various physical systems, including soft and rigid bodies, shell and cloth, fluid, and multi-physics coupling systems. We are also interested in developing AI-based interactive systems to facilitate novel interaction and control between the human users and physical objects. At the same time, the IRES intern students will work together with students at Dartmouth, The University of Tokyo, and JAIST to devise an open-source platform to create accessible interactive physical AI designs.
-                        </p>
-
-                        <a href="#contact" class="button">Apply Now</a>
-                    </div>
-                </div>
+                        </p>                
+		</div>
 
                 <!--=============== ADVISOR TEAM ===============-->
                 <br><br>
