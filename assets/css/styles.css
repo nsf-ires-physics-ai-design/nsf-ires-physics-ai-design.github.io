@@ -76,6 +76,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  max-width: 960px;
 }
 
 html {
@@ -867,6 +868,7 @@ body.light-theme{
   border-radius: 1rem;
   text-align: left;
   margin-bottom: 2.5rem;
+  max-width: 960px;
 }
 
 .research__card{
