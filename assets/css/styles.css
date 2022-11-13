@@ -863,8 +863,8 @@ body.light-theme{
 .research__overview{
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 32px;
-  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-left: 64px;
   border-radius: 1rem;
   text-align: left;
   margin-bottom: 2.5rem;
