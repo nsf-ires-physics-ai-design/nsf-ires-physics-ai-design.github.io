@@ -329,6 +329,12 @@ body.light-theme{
   margin-bottom: 2rem;
 }
 
+.ires__logo__img{
+  margin-top: 6rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
 .nav__menu{
   position: fixed;
   bottom: 1rem; 
