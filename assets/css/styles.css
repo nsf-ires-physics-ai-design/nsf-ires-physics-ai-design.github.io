@@ -351,8 +351,7 @@ body.light-theme{
   border-radius: 4rem;
   transition: .4s; /* for light mode animation */
   padding: 1rem;
-  margin-left: 7.5rem;
-  margin-right: 20rem;
+  margin: auto;
 }
 
 .topnav-links{
