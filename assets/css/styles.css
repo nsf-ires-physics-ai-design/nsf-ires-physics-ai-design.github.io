@@ -412,7 +412,6 @@ body.light-theme{
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px -8px 10px 0px var(--body-color) inset;
-  transition: .4s; /* for light mode animation */
 }
 
 .home__container{
