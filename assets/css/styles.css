@@ -324,18 +324,21 @@ body.light-theme{
   width: 3.5rem;
   height: 3.5rem;
   margin-bottom: 2rem;
+  margin: auto;
 }
 
 .jaist__logo__img{
   margin-top: 3rem;
   width: 5rem;
   margin-bottom: 2rem;
+  margin: auto;
 }
 
 .ires__logo__img{
   margin-top: 6rem;
   width: 10rem;
   margin-bottom: 2rem;
+  margin: auto;
 }
 
 .nav__menu{
@@ -348,6 +351,7 @@ body.light-theme{
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
   transition: .4s; /* for light mode animation */
+  margin: auto;
 }
 
 .topnav{
@@ -362,10 +366,12 @@ body.light-theme{
   padding: 1rem;
   display: flex; 
   border-radius: 5rem;
+  margin: auto;
 }
 
 .topnav-active{
   color: var(--first-color);
+  margin: auto;
 }
 
 .nav__list{
@@ -373,6 +379,7 @@ body.light-theme{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 .nav__link{
@@ -381,6 +388,7 @@ body.light-theme{
   padding: .4rem; 
   display: flex; 
   border-radius: 5rem;
+  margin: auto;
 }
 
 /* Active link */
