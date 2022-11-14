@@ -75,8 +75,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
   max-width: 960px;
+  margin: auto;
 }
 
 html {
@@ -250,8 +250,7 @@ body.light-theme{
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 960px;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: auto;
 }
 
 .grid {
@@ -509,7 +508,7 @@ body.light-theme{
 
 /* Slideshow container */
 .slideshow__container {
-  max-width: 1000px;
+  max-width: 960px;
   position: relative;
   margin: auto;
 }
@@ -869,6 +868,7 @@ body.light-theme{
   text-align: center;
   margin-bottom: 2.5rem;
   max-width: 960px;
+  margin: auto;
 }
 
 .research__card{
