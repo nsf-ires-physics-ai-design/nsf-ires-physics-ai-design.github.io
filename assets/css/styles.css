@@ -249,7 +249,7 @@ body.light-theme{
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1920px;
+  max-width: 960px;
   margin-left: 1rem;
   margin-right: 1rem;
 }
