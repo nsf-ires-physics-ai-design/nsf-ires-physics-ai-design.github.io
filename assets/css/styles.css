@@ -859,12 +859,8 @@ body.light-theme{
 
 /*=============== research / RELEVANT PAPERS SECTION ===============*/
 .research__overview{
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 64px;
   border-radius: 1rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: 2.5rem;
   max-width: 960px;
   margin: auto;
