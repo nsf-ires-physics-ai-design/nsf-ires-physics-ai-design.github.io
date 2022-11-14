@@ -862,7 +862,7 @@ body.light-theme{
 /*=============== research / RELEVANT PAPERS SECTION ===============*/
 .research__overview{
   border-radius: 1rem;
-  text-align: left;
+  text-align: center;
   margin-bottom: 2.5rem;
   max-width: 960px;
   margin: auto;
