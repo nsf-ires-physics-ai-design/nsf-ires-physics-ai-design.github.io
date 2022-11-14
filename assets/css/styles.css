@@ -296,6 +296,7 @@ body.light-theme{
   background-color: var(--body-color);
   z-index: var(--z-fixed);
   transition: .4s; /* for light mode animation */
+  margin: auto;
 }
 
 .nav{
@@ -303,6 +304,7 @@ body.light-theme{
   display: flex; 
   /* justify-content: space-between; */
   align-items: center;
+  margin: auto;
 }
 
 .nav__logo{
